@@ -7,7 +7,7 @@ $(document).ready(function() {
     navigationTooltips: ['About', 'Skills', 'Projects'],
     showActiveTooltip: true,
     sectionsColor : ['#fff', '#000', '#fff', '#000'],
-    css3: true
+    scrollOverflow: false
   });
 
     $(function(){
@@ -18,4 +18,8 @@ $(document).ready(function() {
         });
     });
 
+    $(function(){
+        
+        $('.modal-trigger').leanModal();
+    });
 });
