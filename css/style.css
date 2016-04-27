@@ -1,14 +1,52 @@
 body {
+  background-color: #FFF;
+  
+}
+
+.container {
   font-family: arial;
   text-align: center;
-  background-color: #ebdeda;
 }
 
-.navbar {
-  background-color: #ffe4e1;
+.brand-logo {
+  font-family: 'Pinyon Script', cursive;
+  margin-left: 20px;
 }
 
-.about {
+#fullpage, .section {
+  width: 100%;
+}
+
+.element {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 65px;
+}
+
+.typed-cursor{
+    font-size: 75px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*.about {
   text-align: wrap;
   font-size: 20px;
   border-radius: 100px;
@@ -16,14 +54,31 @@ body {
   width: 60%;
   margin-left: 300px;
   margin-top: 50px;
+}*/
+
+
+
+.content {
+  margin-top: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
 }
 
-.default {
+.row {
+  padding: 20px 10px 20px 50px;
+}
+
+img {
   border-radius: 300px;
+  border-color: black;
+  border-width: 3px;
+/*  height: 300;
+  width: 180;*/
 }
 
 .intro {
-  margin-top: 100px;
+  margin-top: 20px;
   text-align: center;
 }
 

@@ -2,44 +2,66 @@
 <html>
 <head>
   <title>Audrey Andoy</title>
-  <!-- Latest compiled and minified CSS & JS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <script src="//code.jquery.com/jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+   <!-- Materialize Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+  <!-- Materialize Compiled and minified JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  
+  <!-- FullPage.js -->
+  <link rel="stylesheet" type="text/css" src="css/jquery.fullPage.css" />
+  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+  <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+
+  <!-- Typed.js -->
+  <script type="text/javascript" src="js/typed.js"></script>
+
+  <!-- My stylesheet & JS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/main.js"></script>
+  <!-- Logo Font -->
+  <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Audrey Andoy</a>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper black">
+        <span class=" grey-text text-darken-4">
+          <a href="#!" class="brand-logo">AA</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="/about.html">About</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li class="active"><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+          </span>
       </div>
-  
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Portfolio</a></li>
-          <li><a href="/about.html">About</a></li>
-        </ul>
-       
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
+    </nav>
+  </div>
 
-  <h2>Welcome to my Portfolio </h2>
-  <p><h3>Click below to view a few of my projects</h3></p>
+<div class="container">
 
-  <a href="https://phofinder.herokuapp.com" target="_blank"><img src="/pics/phofinder.png" height="400" width="320">
-  <a href="https://mybankly.herokuapp.com/" target="_blank"><img src="/pics/bankly.png" height="400" width="320">
+  <div id="fullpage">
+      <div class="section">
+            <span class="element"></span>
+        <div class="content">
 
+          <div class="row">
+            <img class="col s4" src="/pics/self.png">
+              <div class="col s7 intro">I am a Seattle-based Web developer with a growing passion in technology and data visualizations. Working previously as an implementation consultant for municipal financial software, I learned the importance of creating interactive applications to improve business processes for the benefit of all end-users. I work best in collaborative environments with fellow creative and independent minds. When my head isn't in my laptop you can find me baking something sugary or outside enjoying a hike.
+              </div>
+          </div>
+      </div>
+ </div>
+
+      <div class="section">Section 2</div>
+      <div class="section">Section 3</div>
+
+
+
+</div>
 </body>
 </html>
