@@ -59,26 +59,45 @@ body {
 
 
 .content {
-  margin-top: 50px;
+  margin-top: 20px;
+  padding-right: 20px;
   border-color: black;
   border-style: solid;
   border-width: 2px;
 }
 
 .row {
-  padding: 20px 10px 20px 50px;
+  padding: 20px 10px 20px 30px;
 }
 
-img {
+.default {
   border-radius: 300px;
   border-color: black;
   border-width: 3px;
-/*  height: 300;
-  width: 180;*/
+  margin-top: 20px;
+
 }
 
 .intro {
-  margin-top: 20px;
+  margin-top: 0px;
   text-align: center;
 }
 
+h1, h5{
+  color: white;
+  text-align: center;
+}
+
+.skill {
+  height: 60px;
+  width: 60px;
+  color:white;
+}
+
+ul {
+  display: inline;
+}
+
+.white-text {
+  color: white;
+}

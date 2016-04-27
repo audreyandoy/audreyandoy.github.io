@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Audrey Andoy</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
 
    <!-- Materialize Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
@@ -13,7 +13,6 @@
   
   <!-- FullPage.js -->
   <link rel="stylesheet" type="text/css" src="css/jquery.fullPage.css" />
-  <script type="text/javascript" src="js/jquery.fullPage.js"></script>
   <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
 
   <!-- Typed.js -->
@@ -22,8 +21,10 @@
   <!-- My stylesheet & JS -->
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <script type="text/javascript" src="js/main.js"></script>
+
   <!-- Logo Font -->
   <link href='https://fonts.googleapis.com/css?family=Pinyon+Script' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
@@ -33,31 +34,102 @@
         <span class=" grey-text text-darken-4">
           <a href="#!" class="brand-logo">AA</a>
             <ul class="right hide-on-med-and-down">
-              <li><a href="/about.html">About</a></li>
-              <li><a href="#">Portfolio</a></li>
-              <li class="active"><a href="collapsible.html">JavaScript</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Projects">Projects</a></li>
             </ul>
           </span>
       </div>
     </nav>
   </div>
 
-<div class="container">
-
-  <div id="fullpage">
-      <div class="section">
+<div id="fullpage">
+  <div class="section">
+    <div class="container">
             <span class="element"></span>
         <div class="content">
-
           <div class="row">
-            <img class="col s4" src="/pics/self.png">
-              <div class="col s7 intro">I am a Seattle-based Web developer with a growing passion in technology and data visualizations. Working previously as an implementation consultant for municipal financial software, I learned the importance of creating interactive applications to improve business processes for the benefit of all end-users. I work best in collaborative environments with fellow creative and independent minds. When my head isn't in my laptop you can find me baking something sugary or outside enjoying a hike.
+            <img class="col s5 default" src="/pics/self.png">
+              <div class="col s7 intro"> 
+                <p><h3 class="brand-logo">About me</h3></p>
+              
+                <p>I am a Seattle-based web developer that enjoys learning, problem-solving and creating data-visualizations. My love for the web all started in middle school when I created HTML layouts for my Xanga.com blog. Previously, I was an Implementation Consultant where I learned firsthand how well-designed, interactive applications significantly improved business processes for end-users. </p>
+
+                <p>I work best in collaborative environments with fellow creative and independent minds. When my head isn't in my laptop you can find me baking something sugary or outside enjoying a hike.</p>
+
+                <p>Currently, I am doing free-lance work but am looking for full-time opportunities.</p>
+
+                <a href="https://www.linkedin.com/in/audreyandoy" target="_blank"><img src="pics/linkedin.png"></a>
+                <a href="https://www.github.com/audreyandoy" target="_blank"><img src="pics/github.png"></a>
+                <a href="mailto:audreylandoy@gmail.com" target="_top"><img src="pics/email.png"></a>
+            
               </div>
           </div>
+        </div>
+    </div>
+  </div>
+  <div class="section">
+    <p><h1 class="brand-logo">Skills</h1></p>
+      <div class="container">
+        <div class="row">
+          <div class="col s4 ">
+            <h5>Languages</h5>
+            <hr />
+            <br />
+            <img class="skill" src="skill-images/html.svg" alt="html5">
+            <img class="skill" src="skill-images/css3.svg" alt="css3">
+            <img class="skill" src="skill-images/sql.png" alt="sql">
+            <img class="skill" src="skill-images/javascript.svg" alt="javascript">
+            <img class="skill" src="skill-images/ruby.svg" alt="ruby">
+          </div>
+          <div class="col s4">
+            <h5>Frameworks</h5>
+            <hr />
+            <br />
+            <img class="skill" src="skill-images/angularjs.svg" alt="Angular">
+            <img class="skill" src="skill-images/reactjs.svg" alt="React">
+            <img class="skill" src="skill-images/rails.svg" alt="rails">
+            <img class="skill" src="skill-images/node.svg" alt="node">
+            <span class="white-text">Express, Mocha, Chai</span> 
+          </div>
+          <div class="col s4">
+            <h5>Libraries</h5>
+            <hr />
+            <br />
+            <img class="skill" src="skill-images/bootstrap.svg" alt="Angular">
+            <img class="skill" src="skill-images/jquery.svg" alt="React">
+            <p><span class="white-text">Bcrypt, Chart.js, Passport, DataTables</span></p>
+         </div>
+       </div>
+       <div class="row">
+          <div class="col s4">
+            <h5>Databases</h5>
+            <hr />
+            <br />
+            <img class="skill" src="skill-images/mysql.svg" alt="mysql">
+            <img class="skill" src="skill-images/postgresql.svg" alt="postgresql">
+            <img class="skill" src="skill-images/mongodb.svg" alt="mongodb">
+          </div>
+          <div class="col s4">
+            <h5>Other</h5>
+            <hr />
+            <br />
+            <img class="skill" src="skill-images/github.svg" alt="Github">
+            <img class="skill" src="skill-images/gulp.svg" alt="gulp">
+            <img class="skill" src="skill-images/heroku.svg" alt="Heroku">
+            <img class="skill" src="skill-images/trello.svg" alt="trello">
+            <span class="white-text">Kanban, Agile, Project Management, JSON, AJAX, Sessions, Authentication, RESTful Routingm, TDD</span>
+          </div>
+          <div class="col s4">
+            <h5>In Progress</h5>
+            <hr />
+            <br />
+            <img class="skill" src="skill-images/php.svg" alt="php">
+            <img class="skill" src="skill-images/python.svg" alt="python">
+          </div>
       </div>
- </div>
-
-      <div class="section">Section 2</div>
+    </div>
+  </div>
       <div class="section">Section 3</div>
 
 
