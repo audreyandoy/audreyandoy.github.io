@@ -51,7 +51,7 @@ body {
     100% { opacity:1; }
 }
 
-/*.about {
+/*#about {
   text-align: wrap;
   font-size: 20px;
   border-radius: 100px;
@@ -69,6 +69,7 @@ body {
   border-color: black;
   border-style: solid;
   border-width: 2px;
+  width: 100%;
 }
 
 .row {
@@ -130,4 +131,15 @@ ul {
   width: 100px;
   border-color: black;
 }
+
+/*Mobile responsive*/
+
+@media only screen and (max-width: 800px) {
+
+  #element {
+    font-size: 10px;
+  }
+    
+}
+
 
