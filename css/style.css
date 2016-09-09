@@ -138,20 +138,19 @@ ul {
 
 /*Mobile responsive*/
 
-@media only screen and (min-width: 0px) {
+@media only screen and (max-width: 1180px) {
 
   .card .card-content .card-title {
     font-size: 18px ;
   }
-  .card .card-content p {
+  .card .card-content p, .card-reveal p{
     font-size: 11px ;
   }
 
-  p {
-    font-size: 11px;
-  }
+
+ 
   }
     
-}
+
 
 
