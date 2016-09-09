@@ -1,6 +1,9 @@
 body {
-  background-color: #FFF;
-  
+  background-color: #FFF;  
+}
+
+@-ms-viewport{
+  width: device-width;
 }
 
 .container, h3 {
