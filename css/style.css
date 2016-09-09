@@ -85,6 +85,10 @@ body {
 
 }
 
+.activator {
+  bottom: 0px;
+}
+
 .intro {
   margin-top: 20px;
   text-align: center;
@@ -134,10 +138,18 @@ ul {
 
 /*Mobile responsive*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 0px) {
 
-  #element {
-    font-size: 10px;
+  .card .card-content .card-title {
+    font-size: 18px ;
+  }
+  .card .card-content p {
+    font-size: 11px ;
+  }
+
+  p {
+    font-size: 11px;
+  }
   }
     
 }
