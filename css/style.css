@@ -24,7 +24,12 @@ body {
 .element {
   font-family: 'Pinyon Script', cursive;
   font-size: 65px;
-  margin-top: 10px
+  /*REDO PROFILE*/
+   
+    /*width:30em;
+    height:18em;
+*/     /*set to a negative number 1/2 of your width*/
+
 }
 
 .typed-cursor{
