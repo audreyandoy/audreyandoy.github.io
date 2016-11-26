@@ -12,7 +12,7 @@ $(document).ready(function() {
 
     $(function(){
         $(".element").typed({
-            strings: ["Hello, I'm <strong>Audrey</strong>."],
+            strings: ["Portfolio In Progress!"],
             typeSpeed: 60,
             contentType: 'html'
         });
