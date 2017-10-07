@@ -3,11 +3,6 @@ body {
   text-align: center;
 }
 
-.progress {
-  font-size: 50px;
-  margin: 10%;
-}
-
 @-ms-viewport{
   width: device-width;
 }
