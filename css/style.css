@@ -143,6 +143,10 @@ ul {
   border-color: black;
 }
 
+#skills-page {
+  background-color: white;
+}
+
 /*Mobile responsive*/
 
 @media only screen and (max-width: 1180px) {
