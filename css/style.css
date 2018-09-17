@@ -5,10 +5,11 @@ body {
 
 nav {
   box-shadow: none !important;;
-}
+} 
 
 nav ul a {
   color: #000 !important;
+  cursor: pointer;
 }
 
 @-ms-viewport{
@@ -50,6 +51,9 @@ nav ul a {
     animation: blink 0.7s infinite;
 }
 
+.projectList {
+  margin-left: 10%;
+}
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
@@ -146,9 +150,11 @@ ul {
 }
 
 .preview {
-  height:150px;
-  width: 100px;
-  border-color: black;
+    height: 150px;
+    line-height: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff6f22;
 }
 
 #skills-page {
