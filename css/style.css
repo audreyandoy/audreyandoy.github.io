@@ -5,6 +5,7 @@ body {
 
 nav {
   box-shadow: none !important;;
+ 
 } 
 
 nav ul a {
@@ -52,7 +53,9 @@ nav ul a {
 }
 
 .projectList {
-  margin-left: 10%;
+  margin-left: 10% !important;
+
+  
 }
 @keyframes blink{
     0% { opacity:1; }
