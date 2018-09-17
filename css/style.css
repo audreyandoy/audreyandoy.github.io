@@ -3,13 +3,13 @@ body {
   text-align: center;
 }
 
-nav {
+/* nav {
   box-shadow: none !important;;
-}
+} */
 
-nav ul a {
+/* nav ul a {
   color: #000 !important;
-}
+} */
 
 @-ms-viewport{
   width: device-width;
