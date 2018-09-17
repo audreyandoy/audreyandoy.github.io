@@ -146,9 +146,11 @@ ul {
 }
 
 .preview {
-  height:150px;
-  width: 100px;
-  border-color: black;
+    height: 150px;
+    line-height: 150px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff6f22;
 }
 
 #skills-page {
