@@ -3,6 +3,14 @@ body {
   text-align: center;
 }
 
+nav {
+  box-shadow: none !important;;
+}
+
+nav ul a {
+  color: #000 !important;
+}
+
 @-ms-viewport{
   width: device-width;
 }
