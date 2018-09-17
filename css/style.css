@@ -3,13 +3,14 @@ body {
   text-align: center;
 }
 
-/* nav {
+nav {
   box-shadow: none !important;;
-} */
+} 
 
-/* nav ul a {
+nav ul a {
   color: #000 !important;
-} */
+  cursor: pointer;
+}
 
 @-ms-viewport{
   width: device-width;
@@ -50,6 +51,9 @@ body {
     animation: blink 0.7s infinite;
 }
 
+.projectList {
+  margin-left: 10%;
+}
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
