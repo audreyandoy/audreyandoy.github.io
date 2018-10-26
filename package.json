@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/audreyandoy/audreyandoy.github.io/issues"
   },
-  "homepage": "https://github.com/audreyandoy/audreyandoy.github.io#readme"
+  "homepage": "https://github.com/audreyandoy/audreyandoy.github.io#readme",
+  "dependencies": {
+    "npm": "^6.4.1"
+  }
 }
