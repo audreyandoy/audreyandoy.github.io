@@ -1,0 +1,23 @@
+{
+  "name": "audreyandoy.github.io",
+  "version": "1.0.0",
+  "description": "<div>Icons made by <a href=\"http://www.flaticon.com/authors/simpleicon\" title=\"SimpleIcon\">SimpleIcon</a> from <a href=\"http://www.flaticon.com\" title=\"Flaticon\">www.flaticon.com</a> is licensed by <a href=\"http://creativecommons.org/licenses/by/3.0/\" title=\"Creative Commons BY 3.0\" target=\"_blank\">CC 3.0 BY</a></div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audreyandoy/audreyandoy.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audreyandoy/audreyandoy.github.io/issues"
+  },
+  "homepage": "https://github.com/audreyandoy/audreyandoy.github.io#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0",
+    "npm": "^6.4.1"
+  }
+}
