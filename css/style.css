@@ -4,7 +4,7 @@
 
 body {
   background-color: #F8A998;
-  color: white;
+  color: black;
    display: flex;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -36,7 +36,7 @@ div {
 
 a {
   padding-right: .3em;
-  color: white;
+  color: black;
   text-decoration: none; 
 }
 
@@ -55,6 +55,7 @@ a {
 
 .type{
   font-weight: 800;
+  color: white;
   overflow: hidden;  
   border-right: 10px solid white;
   white-space: nowrap;
