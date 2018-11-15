@@ -5,34 +5,30 @@
 body {
   background-color: #F8A998;
   color: black;
-   display: flex;
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
-
-}
-
-h1 {
-  margin-bottom: 0px;
 }
 
 .container {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
-  font-size: 3em;
+  font-size: 5vh;
   top: 50%;
   left: 50%;
   width: 100%;
   position: fixed; 
   transform: translate(-50%, -50%);
-
 }
 
 div {
   padding: 1%;
 }
 
-/* .icons {
-   height: 100px;
-} */
+.name {
+  font-size: 12vh;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
 
 a {
   padding-right: .3em;
@@ -48,6 +44,7 @@ a {
   width: 12.5em;
   text-align: center;
   margin: auto;
+  font-size: 4vh;
   font-weight: 300;
   /* font-family: 'Merriweather', serif; */
 
