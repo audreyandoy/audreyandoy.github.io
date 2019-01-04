@@ -43,7 +43,7 @@ a {
   margin-top: 3%;
 }
 .type_container {
-  width: 12.5em;
+  width: 10.3em;
   text-align: center;
   margin: auto;
   font-size: 4vh;
@@ -58,7 +58,7 @@ a {
   overflow: hidden;  
   border-right: 10px solid white;
   white-space: nowrap;
-  width: 12.5em;
+  /* width: 12.5em; */
   margin: 0 auto;
   position: relative;
   animation: typing 3s steps(30) normal both,
