@@ -40,13 +40,11 @@ a {
 
 
 .type_container {
-  width: 10.3em;
+  width: fit-content;
   text-align: center;
   margin: auto;
   font-size: 4vh;
   font-weight: 300;
-  /* font-family: 'Merriweather', srif; */
-
 } 
 
 .type{
@@ -55,7 +53,6 @@ a {
   overflow: hidden;  
   border-right: 10px solid white;
   white-space: nowrap;
-  /* width: 12.5em; */
   margin: 0 auto;
   position: relative;
   animation: typing 3s steps(30) normal both,
